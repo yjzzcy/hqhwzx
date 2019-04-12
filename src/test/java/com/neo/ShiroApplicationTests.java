@@ -10,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import com.ShiroApplication;
 import com.neo.model.UserInfo;
 import com.neo.sevice.UserInfoService;
 
@@ -38,7 +39,6 @@ public class ShiroApplicationTests {
 			System.out.println(UserInfo);
 		}
 	}
-	
 	//测试通过
 	/**
 	 * 测试排序查询，springDate的PagingAndSortingRepository接口已经封装好的

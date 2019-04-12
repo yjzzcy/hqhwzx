@@ -19,6 +19,7 @@ public class UserInfoController {
 
 	@Autowired
 	private UserInfoService service;
+	
 	UserInfo user = new UserInfo();
     
 	
