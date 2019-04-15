@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="spring-boot-shiro">
+		<class>com.hqhwzx.q.entity.New</class>
+		<class>com.hqhwzx.entity.About</class>
+		<class>com.hqhwzx.entity.Activity</class>
+		<class>com.hqhwzx.entity.Activityimage</class>
+		<class>com.hqhwzx.entity.Activitynumber</class>
+		<class>com.hqhwzx.entity.Activitypeople</class>
+		<class>com.hqhwzx.entity.Activitypeopleinfo</class>
+		<class>com.hqhwzx.entity.Activitysort</class>
+		<class>com.hqhwzx.entity.Adinformation</class>
+		<class>com.hqhwzx.entity.Advertisement</class>
+		<class>com.hqhwzx.entity.Area</class>
+		<class>com.hqhwzx.entity.Barea</class>
+		<class>com.hqhwzx.entity.Carea</class>
+		<class>com.hqhwzx.entity.Discuss</class>
+		<class>com.hqhwzx.entity.Friendshiplink</class>
+		<class>com.hqhwzx.entity.Good</class>
+		<class>com.hqhwzx.entity.Goodsattribute</class>
+		<class>com.hqhwzx.entity.Integralgrade</class>
+		<class>com.hqhwzx.entity.Integralrule</class>
+		<class>com.hqhwzx.entity.Naarea</class>
+		<class>com.hqhwzx.entity.Navigation</class>
+		<class>com.hqhwzx.entity.Navigationcontent</class>
+		<class>com.hqhwzx.entity.Nbarea</class>
+		<class>com.hqhwzx.entity.Ncarea</class>
+		<class>com.hqhwzx.entity.New</class>
+		<class>com.hqhwzx.entity.Newsort</class>
+		<class>com.hqhwzx.entity.Notice</class>
+		<class>com.hqhwzx.entity.Outaccount</class>
+		<class>com.hqhwzx.entity.Receivingaddress</class>
+		<class>com.hqhwzx.entity.Salt</class>
+		<class>com.hqhwzx.entity.Saltrelation</class>
+		<class>com.hqhwzx.entity.Special</class>
+		<class>com.hqhwzx.entity.Specialsort</class>
+		<class>com.hqhwzx.entity.Staff</class>
+		<class>com.hqhwzx.entity.User</class>
+		<class>com.hqhwzx.entity.Videomanager</class>
+		<class>com.hqhwzx.entity.Videosort</class>
+		<class>com.hqhwzx.entity.Webinformation</class>
+	</persistence-unit>
+</persistence>
