@@ -18,6 +18,7 @@ public class ExecutorConfig {
     @Value("${async.executor.thread.max_pool_size}")
     private int maxPoolSize;
     @Value("${async.executor.thread.queue_capacity}")
+    
     private int queueCapacity;
     @Value("${async.executor.thread.name.prefix}")
     private String namePrefix;
